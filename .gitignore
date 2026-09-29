@@ -1,0 +1,64 @@
+# ================================
+# Large data files - NEVER commit
+# ================================
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bam.bai
+*.sam
+*.sra
+*.fna
+*.fna.gz
+*.fa
+*.fa.gz
+*.gff
+*.gff.gz
+*.gtf
+*.gtf.gz
+*.vcf.gz
+*.vcf.gz.tbi
+*.bed.gz
+
+# Truth sets and reference dumps
+GIAB_truth_v3.3.vcf.gz
+GRCh38_no_alt.fna.gz
+*.2bit
+
+# ================================
+# Intermediate pipeline artifacts
+# ================================
+*.o
+*.tmp
+*.swp
+*.log
+logs/*
+nohup.out
+*.Rhistory
+*.RData
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+
+# ================================
+# OS and editor junk
+# ================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.bak
+
+# ================================
+# Software-specific temp files
+# ================================
+*.meg
+*.sbd
+*_tmp/
+SeqMan_*/
+Lasergene_*/
+PAUP_*/
+*.nex~
+!logs/.gitkeep
