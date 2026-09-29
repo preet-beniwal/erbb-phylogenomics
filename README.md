@@ -41,8 +41,4 @@ This project investigates whether human single nucleotide variants (SNVs) in the
 
 ## Author
 
-**Preet Beniwal** — Project portfolio for PhD applications in Bioinformatics / Computational Biology
-
-## License
-
-See `LICENSE`.
+**Preet Beniwal** 
