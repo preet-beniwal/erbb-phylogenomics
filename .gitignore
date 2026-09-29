@@ -62,3 +62,9 @@ Lasergene_*/
 PAUP_*/
 *.nex~
 !logs/.gitkeep
+
+# Pipeline intermediate files (regenerable by 03_msa_pipeline.sh)
+reference/orthologs/proteins/
+reference/orthologs/cds_norm/
+reference/orthologs/erbb_family_aligned.fasta
+reference/orthologs/erbb_family_all.fasta
