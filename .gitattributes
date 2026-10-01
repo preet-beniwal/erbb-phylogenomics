@@ -1,0 +1,12 @@
+# FastQC HTML reports are auto-generated output, not authored code.
+# Exclude them from GitHub language statistics.
+results/qc/*.html linguist-generated=true
+results/qc/*.zip  linguist-generated=true
+
+# iTOL exported figures (if any HTML exports exist)
+results/figures/*.html linguist-generated=true
+
+# Also mark any HTML in the repo as documentation, not source
+*.html linguist-documentation
+*.css  linguist-documentation
+*.js   linguist-documentation
