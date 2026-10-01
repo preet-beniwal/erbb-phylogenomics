@@ -69,3 +69,19 @@ GitHub: [@preet-beniwal](https://github.com/preet-beniwal)
 ## License
 
 MIT
+
+## Phylogenetic Trees
+
+The ErbB family tree was reconstructed using two independent methods.
+Both recovered congruent topologies with bootstrap support of 100 on all
+four paralog clades.
+
+### Maximum Likelihood (IQ-TREE, GTR+F+I+G4)
+
+![IQ-TREE ML tree](results/figures/erbb_ml_tree.png)
+
+### Neighbor-Joining (PHYLIP, Kimura 2-parameter)
+
+![PHYLIP NJ tree](results/figures/erbb_nj_tree.png)
+
+PDF versions (vector, publication-quality) are in `results/figures/`.
