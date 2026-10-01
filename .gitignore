@@ -98,3 +98,6 @@ results/bwa/*.bai
 results/vcf/*.vcf.gz
 results/vcf/*.vcf.gz.tbi
 results/vcf/*.bcf
+
+# FASTA index (regenerable)
+reference/*.fai
