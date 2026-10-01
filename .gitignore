@@ -75,3 +75,10 @@ results/trees/intree
 results/trees/outfile*
 results/trees/outtree*
 results/trees/*.log
+
+# BWA index files (large, regenerable)
+reference/*.amb
+reference/*.ann
+reference/*.bwt
+reference/*.pac
+reference/*.sa
