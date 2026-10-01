@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE eSearchResult PUBLIC "-//NLM//DTD esearch 20060628//EN" "https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20060628/esearch.dtd">
+<eSearchResult><Count>0</Count><RetMax>0</RetMax><RetStart>0</RetStart><IdList/><TranslationSet/><TranslationStack>   <TermSet>    <Term>ERBB2[gene]</Term>    <Field>gene</Field>    <Count>849</Count>    <Explode>N</Explode>   </TermSet>   <TermSet>    <Term>1170[All Fields]</Term>    <Field>All Fields</Field>    <Count>642</Count>    <Explode>N</Explode>   </TermSet>   <OP>AND</OP>  </TranslationStack><QueryTranslation>ERBB2[gene] AND 1170[All Fields]</QueryTranslation><ErrorList><FieldNotFound>variant position</FieldNotFound></ErrorList></eSearchResult>
