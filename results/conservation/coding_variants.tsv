@@ -1,0 +1,7 @@
+gene	chrom	pos	ref	alt	consequence	aa	codons	hgvsc	cds_start
+EGFR	chr7	55146655	C	T	synonymous_variant	N	aaC/aaT	?	474
+EGFR	chr7	55181370	G	A	synonymous_variant	Q	caG/caA	?	2361
+EGFR	chr7	55198724	T	C	synonymous_variant	T	acT/acC	?	2709
+EGFR	chr7	55201256	A	G	synonymous_variant	E	gaA/gaG	?	3015
+ERBB2	chr17	39727784	C	G	missense_variant	P/A	Ccc/Gcc	?	3508
+ERBB3	chr12	56101207	G	A	synonymous_variant	R	agG/agA	?	3348

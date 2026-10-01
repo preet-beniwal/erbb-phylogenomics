@@ -1,0 +1,7 @@
+gene	chrom	pos	ref	alt	codon	aa_change	human_base	score	shift	species_bases
+EGFR	chr7	55146655	C	T	158	N (syn)	C	1	0	EGFR_human=C|EGFR_mouse=T|EGFR_chicken=C|EGFR_zebrafish=T|EGFR_drosophila=C
+EGFR	chr7	55181370	G	A	787	Q (syn)	G	3	0	EGFR_human=G|EGFR_mouse=G|EGFR_chicken=G|EGFR_zebrafish=G|EGFR_drosophila=G
+EGFR	chr7	55198724	T	C	903	T (syn)	T	1	0	EGFR_human=T|EGFR_mouse=T|EGFR_chicken=A|EGFR_zebrafish=C|EGFR_drosophila=A
+EGFR	chr7	55201256	A	G	1005	E (syn)	A	0	0	EGFR_human=A|EGFR_mouse=G|EGFR_chicken=G|EGFR_zebrafish=G|EGFR_drosophila=C
+ERBB2	chr17	39727784	C	G	1170	P->A (missense)	C	1	4	ERBB2_human=C|ERBB2_mouse=C|ERBB2_chicken=C|ERBB2_zebrafish=G
+ERBB3	chr12	56101207	G	A	1116	R (syn)	G	1	-1	ERBB3_human=G|ERBB3_mouse=G|ERBB3_chicken=-|ERBB3_zebrafish=C
