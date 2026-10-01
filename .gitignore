@@ -93,3 +93,8 @@ results/trees_iqtree/erbb_aln.fasta
 # BAM files (huge, regenerable)
 results/bwa/*.bam
 results/bwa/*.bai
+
+# VCF files (regenerable)
+results/vcf/*.vcf.gz
+results/vcf/*.vcf.gz.tbi
+results/vcf/*.bcf
