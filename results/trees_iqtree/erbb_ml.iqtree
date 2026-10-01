@@ -1,0 +1,278 @@
+IQ-TREE 3.1.4 built Sep 29 2026
+
+Input file name: erbb_aln.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 488008
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Piyumal Demotte, Hector Banos,
+Andrew J. Roger, Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman,
+Matthew W. Hahn, Mario dos Reis, Le Sy Vinh, Gavin Huttley, Robert Lanfear, Bui Quang Minh (2026)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Molecular Biology and Evolution, msag117.
+https://doi.org/10.1093/molbev/msag117
+
+Since you used ModelFinder please also cite: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+NOTE: Alignment sequence type is auto-detected. If in doubt, specify it via -st option.
+Input data: 17 sequences with 5727 nucleotide sites
+Number of constant sites: 1999 (= 34.9048% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 1999 (= 34.9048% of all sites)
+Number of parsimony informative sites: 2954
+Number of distinct site patterns: 3520
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: GTR+F+I+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+GTR+F+I+G4       -55756.238  111594.476 +        1  111595.082 +        1  111867.247 +        1
+TIM2+F+I+G4      -55778.746  111635.492 - 1.24e-09  111636.040 - 1.28e-09  111894.957 - 9.61e-07
+TIM3+F+I+G4      -55800.982  111679.963 - 2.73e-19  111680.512 - 2.81e-19  111939.428 - 2.12e-16
+TVM+F+I+G4       -55799.051  111678.102 - 6.93e-19  111678.679 - 7.03e-19  111944.220 - 1.93e-17
+TN+F+I+G4        -55821.970  111719.940 -  5.7e-28  111720.461 - 5.95e-28  111972.752 - 1.23e-23
+TPM2u+F+I+G4     -55824.019  111724.038 - 7.35e-29  111724.559 - 7.66e-29  111976.850 - 1.59e-24
+TIM+F+I+G4       -55821.618  111721.235 - 2.98e-28  111721.784 - 3.07e-28  111980.700 - 2.31e-25
+TPM3u+F+I+G4     -55847.561  111771.122 - 4.38e-39  111771.644 - 4.57e-39  112023.934 - 9.46e-35
+HKY+F+I+G4       -55870.879  111815.758 -  8.9e-49  111816.253 - 9.41e-49  112061.917 - 5.34e-43
+K3Pu+F+I+G4      -55870.585  111817.170 - 4.39e-49  111817.692 - 4.58e-49  112069.982 - 9.47e-45
+GTR+I+G4         -55926.188  111928.376 - 3.12e-73  111928.897 - 3.26e-73  112181.188 - 6.74e-69
+SYM+I+G4         -55926.197  111928.394 - 3.09e-73  111928.915 - 3.23e-73  112181.206 - 6.68e-69
+SYM+I+G4         -55926.197  111928.394 - 3.09e-73  111928.915 - 3.23e-73  112181.206 - 6.68e-69
+TVM+I+G4         -55936.267  111946.533 - 3.56e-77  111947.028 - 3.77e-77  112192.692 - 2.14e-71
+TVMe+I+G4        -55936.304  111946.609 - 3.43e-77  111947.103 - 3.63e-77  112192.768 - 2.06e-71
+TVMe+I+G4        -55936.304  111946.609 - 3.43e-77  111947.103 - 3.63e-77  112192.768 - 2.06e-71
+TIM3+I+G4        -55953.426  111978.853 - 3.42e-84  111979.321 - 3.66e-84  112218.359 - 5.72e-77
+TIM3e+I+G4       -55953.456  111978.913 - 3.32e-84  111979.381 - 3.55e-84  112218.419 - 5.55e-77
+TIM3e+I+G4       -55953.456  111978.913 - 3.32e-84  111979.381 - 3.55e-84  112218.419 - 5.55e-77
+TPM3u+I+G4       -55964.494  111998.988 - 1.45e-88  111999.431 - 1.57e-88  112231.842 - 6.75e-80
+TPM3+I+G4        -55964.518  111999.036 - 1.42e-88  111999.479 - 1.54e-88  112231.890 - 6.59e-80
+TPM3+I+G4        -55964.518  111999.036 - 1.42e-88  111999.479 - 1.54e-88  112231.890 - 6.59e-80
+TIM2+I+G4        -56009.219  112090.439 - 2.01e-108  112090.907 - 2.15e-108  112329.945 - 3.36e-101
+TIM2e+I+G4       -56009.244  112090.488 - 1.96e-108  112090.956 - 2.1e-108  112329.994 - 3.28e-101
+TIM2e+I+G4       -56009.244  112090.488 - 1.96e-108  112090.956 - 2.1e-108  112329.994 - 3.28e-101
+TPM2u+I+G4       -56020.055  112110.110 - 1.08e-112  112110.553 - 1.17e-112  112342.963 - 5.01e-104
+TPM2+I+G4        -56020.068  112110.136 - 1.06e-112  112110.579 - 1.15e-112  112342.989 - 4.94e-104
+TPM2+I+G4        -56020.068  112110.136 - 1.06e-112  112110.579 - 1.15e-112  112342.989 - 4.94e-104
+TN+I+G4          -56034.350  112138.701 - 6.65e-119  112139.144 - 7.22e-119  112371.554 - 3.1e-110
+TNe+I+G4         -56034.354  112138.709 - 6.63e-119  112139.151 - 7.19e-119  112371.562 - 3.09e-110
+TNe+I+G4         -56034.354  112138.709 - 6.63e-119  112139.151 - 7.19e-119  112371.562 - 3.09e-110
+TIM+I+G4         -56034.313  112140.625 - 2.54e-119  112141.093 - 2.72e-119  112380.131 - 4.25e-112
+TIMe+I+G4        -56034.341  112140.682 - 2.47e-119  112141.150 - 2.65e-119  112380.188 - 4.13e-112
+TIMe+I+G4        -56034.341  112140.682 - 2.47e-119  112141.150 - 2.65e-119  112380.188 - 4.13e-112
+HKY+I+G4         -56046.184  112160.367 - 1.31e-123  112160.785 - 1.44e-123  112386.568 - 1.7e-113
+K2P+I+G4         -56046.187  112160.374 - 1.31e-123  112160.792 - 1.44e-123  112386.574 - 1.7e-113
+K2P+I+G4         -56046.187  112160.374 - 1.31e-123  112160.792 - 1.44e-123  112386.574 - 1.7e-113
+K3Pu+I+G4        -56046.124  112162.247 - 5.13e-124  112162.690 - 5.57e-124  112395.100 - 2.39e-115
+K3P+I+G4         -56046.130  112162.259 - 5.1e-124  112162.702 - 5.53e-124  112395.112 - 2.37e-115
+K3P+I+G4         -56046.130  112162.259 - 5.1e-124  112162.702 - 5.53e-124  112395.112 - 2.37e-115
+F81+F+I+G4       -56631.918  113335.837 -        0  113336.305 -        0  113575.343 -        0
+F81+I+G4         -56745.602  113557.203 -        0  113557.598 -        0  113776.751 -        0
+JC+I+G4          -56745.609  113557.217 -        0  113557.612 -        0  113776.765 -        0
+JC+I+G4          -56745.609  113557.217 -        0  113557.612 -        0  113776.765 -        0
+JC+I+R3          -56738.737  113549.474 -        0  113549.942 -        0  113788.980 -        0
+JC+R3            -56746.967  113563.933 -        0  113564.376 -        0  113796.786 -        0
+JC+R4            -56739.477  113552.954 -        0  113553.448 -        0  113799.113 -        0
+JC+I+R4          -56738.330  113552.661 -        0  113553.182 -        0  113805.473 -        0
+JC+I+R2          -56779.406  113626.812 -        0  113627.230 -        0  113853.012 -        0
+JC+G4            -56812.573  113689.147 -        0  113689.517 -        0  113902.041 -        0
+JC+R2            -56930.282  113926.564 -        0  113926.958 -        0  114146.111 -        0
+JC+I             -57402.062  114868.125 -        0  114868.496 -        0  115081.019 -        0
+JC               -58851.783  117765.566 -        0  117765.914 -        0  117971.807 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+I+G4
+
+Rate parameter R:
+
+  A-C: 2.1917
+  A-G: 3.7217
+  A-T: 1.7268
+  C-G: 1.5676
+  C-T: 5.4901
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2489
+  pi(C) = 0.2669
+  pi(G) = 0.2706
+  pi(T) = 0.2136
+
+Rate matrix Q:
+
+  A    -1.009    0.3009     0.518    0.1897
+  C    0.2806    -1.102    0.2182    0.6033
+  G    0.4765    0.2152   -0.8016    0.1099
+  T    0.2211    0.7536    0.1392    -1.114
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.112
+Gamma shape alpha: 1.241
+
+ Category  Relative_rate  Proportion
+  0         0              0.112
+  1         0.2054         0.222
+  2         0.6068         0.222
+  3         1.161          0.222
+  4         2.531          0.222
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -55756.1931 (s.e. 566.5039)
+Unconstrained log-likelihood (without tree): -40296.2434
+Number of free parameters (#branches + #model parameters): 41
+Akaike information criterion (AIC) score: 111594.3863
+Corrected Akaike information criterion (AICc) score: 111594.9921
+Bayesian information criterion (BIC) score: 111867.1571
+
+Total tree length (sum of branch lengths): 8.1495
+Sum of internal branch lengths: 2.8248 (34.6624% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'EGFR_drosophila' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
+                +------EGFR_chicken
+         +------| (100/100)
+         |      |     +--EGFR_human
+         |      +-----| (100/100)
+         |            +---EGFR_mouse
+   +-----| (99.9/99)
+   |     +----------------EGFR_zebrafish
++--| (92.9/83)
+|  |                +---------ERBB2_chicken
+|  |        +-------| (100/100)
+|  |        |       |      +--ERBB2_human
+|  |        |       +------| (100/100)
+|  |        |              +----ERBB2_mouse
+|  +--------| (100/100)
+|           +----------------------ERBB2_zebrafish
+|
++-----------------------------------------------------------EGFR_drosophila
+|
+|                          +---------ERBB3_chicken
+|                   +------| (99.9/100)
+|                   |      |          +--ERBB3_human
+|                   |      +----------| (100/100)
+|                   |                 +--ERBB3_mouse
+|    +--------------| (100/100)
+|    |              +-----------------------------ERBB3_zebrafish
++----| (99.4/100)
+     |            +---ERBB4_chicken
+     |       +----| (100/100)
+     |       |    |  +--ERBB4_human
+     |       |    +--| (100/100)
+     |       |       +--ERBB4_mouse
+     +-------| (100/100)
+             +----------ERBB4_zebrafish
+
+Tree in newick format:
+
+((((EGFR_chicken:0.1971059468,(EGFR_human:0.0901689464,EGFR_mouse:0.1081003979)100/100:0.1695741344)100/100:0.1931188383,EGFR_zebrafish:0.4610733354)99.9/99:0.1752446936,((ERBB2_chicken:0.2688600875,(ERBB2_human:0.0645979182,ERBB2_mouse:0.1327904518)100/100:0.2003630104)100/100:0.2338036399,ERBB2_zebrafish:0.6087426673)100/100:0.2477836727)92.9/83:0.0970758019,EGFR_drosophila:1.5729871607,(((ERBB3_chicken:0.2743612500,(ERBB3_human:0.0818310803,ERBB3_mouse:0.0840116496)100/100:0.3026862783)99.9/100:0.1947836721,ERBB3_zebrafish:0.8079664478)100/100:0.4119504040,((ERBB4_chicken:0.1296213579,(ERBB4_human:0.0560576962,ERBB4_mouse:0.0735010514)100/100:0.0853222427)100/100:0.1416189279,ERBB4_zebrafish:0.3129210472)100/100:0.2277911164)99.4/100:0.1436983339);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -55756.193111
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
+                +------EGFR_chicken
+         +------| (100)
+         |      |     +--EGFR_human
+         |      +-----| (100)
+         |            +---EGFR_mouse
+   +-----| (99)
+   |     +----------------EGFR_zebrafish
++--| (83)
+|  |                +---------ERBB2_chicken
+|  |        +-------| (100)
+|  |        |       |      +--ERBB2_human
+|  |        |       +------| (100)
+|  |        |              +----ERBB2_mouse
+|  +--------| (100)
+|           +----------------------ERBB2_zebrafish
+|
++-----------------------------------------------------------EGFR_drosophila
+|
+|                          +---------ERBB3_chicken
+|                   +------| (100)
+|                   |      |          +--ERBB3_human
+|                   |      +----------| (100)
+|                   |                 +--ERBB3_mouse
+|    +--------------| (100)
+|    |              +-----------------------------ERBB3_zebrafish
++----| (100)
+     |            +---ERBB4_chicken
+     |       +----| (100)
+     |       |    |  +--ERBB4_human
+     |       |    +--| (100)
+     |       |       +--ERBB4_mouse
+     +-------| (100)
+             +----------ERBB4_zebrafish
+
+
+Consensus tree in newick format: 
+
+((((EGFR_chicken:0.1970733092,(EGFR_human:0.0901442228,EGFR_mouse:0.1080927520)100:0.1695375906)100:0.1930895744,EGFR_zebrafish:0.4609861642)99:0.1752358284,((ERBB2_chicken:0.2688346177,(ERBB2_human:0.0645731104,ERBB2_mouse:0.1327892122)100:0.2003413711)100:0.2337759810,ERBB2_zebrafish:0.6086563150)100:0.2477212733)83:0.0970708156,EGFR_drosophila:1.5728113298,(((ERBB3_chicken:0.2743954419,(ERBB3_human:0.0818831082,ERBB3_mouse:0.0839821447)100:0.3026628901)100:0.1946842200,ERBB3_zebrafish:0.8080781402)100:0.4120218290,((ERBB4_chicken:0.1296070551,(ERBB4_human:0.0560547911,ERBB4_mouse:0.0735021957)100:0.0853288796)100:0.1416277929,ERBB4_zebrafish:0.3129008494)100:0.2277846499)100:0.1436589793);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t erbb_ml.treefile -m "GTR{2.19173,3.72172,1.72679,1.56761,5.49014}+F{0.248913,0.26688,0.270574,0.213632}+I{0.111986}+G4{1.24095}" --length 5727
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s erbb_aln.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s erbb_aln.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Thu Oct  1 08:14:27 2026
+Total CPU time used: 70.431092 seconds (0h:1m:10s)
+Total wall-clock time used: 17.81140208 seconds (0h:0m:17s)
+

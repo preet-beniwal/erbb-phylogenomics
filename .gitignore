@@ -82,3 +82,10 @@ reference/*.ann
 reference/*.bwt
 reference/*.pac
 reference/*.sa
+
+# IQ-TREE intermediates
+results/trees_iqtree/*.log
+results/trees_iqtree/*.mldist
+results/trees_iqtree/*.ckp.gz
+results/trees_iqtree/*.splits.nex
+results/trees_iqtree/erbb_aln.fasta
