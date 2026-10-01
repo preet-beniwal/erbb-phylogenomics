@@ -89,3 +89,7 @@ results/trees_iqtree/*.mldist
 results/trees_iqtree/*.ckp.gz
 results/trees_iqtree/*.splits.nex
 results/trees_iqtree/erbb_aln.fasta
+
+# BAM files (huge, regenerable)
+results/bwa/*.bam
+results/bwa/*.bai
