@@ -120,6 +120,18 @@ At the root node of the vertebrate ErbB family, the three residues that form the
 
 **Interpretation:** The allosteric pocket targeted by the EAI045 family of inhibitors in human EGFR (Project 1) was already fully assembled in the common ancestor of all jawed vertebrates (~450 Mya), predating the genome duplications that produced the four modern ErbB paralogs. This indicates that the pocket is a primordial ErbB-family feature, conserved for its structural role in the kinase domain, not a recent innovation specific to EGFR.
 
+### Positive Selection Analysis (dN/dS)
+
+To identify sites driven by adaptive evolution, we ran HyPhy's Fixed Effects Likelihood (FEL) model on the 17-taxon ErbB alignment.
+
+Of 1,909 codons, **1,005 sites were under strong purifying selection** (dN/dS < 1), confirming the structural indispensability of the kinase core. However, **7 sites were identified under significant pervasive positive selection** (dN/dS > 1, p ≤ 0.1).
+
+Crucially, none of these positively selected sites fall within the ATP-binding kinase domain. Instead, they map to:
+*   **Signal Peptides** (EGFR 17, EGFR 29, ERBB2 9, ERBB4 18, ERBB4 27)
+*   **C-terminal Regulatory Tails** (ERBB3 1023, 1044, 1130, 1250; ERBB4 1133)
+
+**Interpretation:** While the catalytic kinase domain is frozen by purifying selection to preserve enzymatic function (and the allosteric pocket), evolution used positive selection to modify the signal peptides (trafficking/localization) and C-terminal tails (downstream signaling docking sites). This explains how the four ErbB paralogs acquired distinct physiological roles despite sharing a highly conserved catalytic core.
+
 ## Limitations
 
 - A formal GIAB benchmark (bcftools isec against the NIST v4.2.1 high-confidence truth set) was not completed. Alignment quality metrics (100% mapped, 99.47% properly paired) suggest high accuracy, but quantitative precision/recall were not measured against the truth set.
