@@ -132,6 +132,16 @@ Crucially, none of these positively selected sites fall within the ATP-binding k
 
 **Interpretation:** While the catalytic kinase domain is frozen by purifying selection to preserve enzymatic function (and the allosteric pocket), evolution used positive selection to modify the signal peptides (trafficking/localization) and C-terminal tails (downstream signaling docking sites). This explains how the four ErbB paralogs acquired distinct physiological roles despite sharing a highly conserved catalytic core.
 
+### Episodic Selection Analysis (MEME)
+
+While FEL identifies sites under constant positive selection across the tree, the MEME model (Mixed Effects Model of Evolution) identifies sites under *episodic* positive selection—rapid bursts of adaptation on specific branches.
+
+We ran MEME on the same 17-taxon alignment. It identified 15 sites under significant episodic selection (p ≤ 0.1). Strikingly, these sites map almost exclusively to the **extracellular domains** (ligand-binding and dimerization regions) and the **kinase hinge/C-terminal tails** of the human receptors:
+
+*   **Extracellular Domains:** EGFR 344, 501, 567; ERBB2 334, 491, 557; ERBB4 341, 498, 565. (These residues govern ligand specificity and receptor dimerization).
+*   **Kinase Hinge / C-Tail:** EGFR 995, 1064, 1133; ERBB2 987, 1092; ERBB3 934, 1073, 1130; ERBB4 991, 1113.
+
+**Biological Interpretation:** The evolutionary history of the ErbB family is a classic example of subfunctionalization and neofunctionalization. Because the intracellular kinase domain is under strict purifying selection (dN/dS < 1) to preserve catalytic activity, evolution used **episodic positive selection** on the extracellular domains to allow the four paralogs to bind different ligands (EGF, Neuregulins), and on the C-terminal tails to recruit different downstream signaling complexes.
 ## Limitations
 
 - A formal GIAB benchmark (bcftools isec against the NIST v4.2.1 high-confidence truth set) was not completed. Alignment quality metrics (100% mapped, 99.47% properly paired) suggest high accuracy, but quantitative precision/recall were not measured against the truth set.
