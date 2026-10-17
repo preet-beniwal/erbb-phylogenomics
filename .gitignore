@@ -101,3 +101,9 @@ results/vcf/*.bcf
 
 # FASTA index (regenerable)
 reference/*.fai
+
+# IQ-TREE intermediate files
+results/asr/*.ckp.gz
+results/asr/*.bionj
+results/asr/*.mldist
+results/asr/*.parstree
