@@ -1,0 +1,144 @@
+IQ-TREE 3.1.4 built Sep 29 2026
+
+Input file name: alignment.fasta
+Type of analysis: tree reconstruction
+Random seed number: 530765
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Piyumal Demotte, Hector Banos,
+Andrew J. Roger, Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman,
+Matthew W. Hahn, Mario dos Reis, Le Sy Vinh, Gavin Huttley, Robert Lanfear, Bui Quang Minh (2026)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Molecular Biology and Evolution, msag117.
+https://doi.org/10.1093/molbev/msag117
+
+SEQUENCE ALIGNMENT
+------------------
+
+NOTE: Alignment sequence type is auto-detected. If in doubt, specify it via -st option.
+Input data: 17 sequences with 5727 nucleotide sites
+Number of constant sites: 1999 (= 34.9048% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 1999 (= 34.9048% of all sites)
+Number of parsimony informative sites: 2954
+Number of distinct site patterns: 3520
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+I+G4
+
+Rate parameter R:
+
+  A-C: 2.2374
+  A-G: 3.7977
+  A-T: 1.7609
+  C-G: 1.5965
+  C-T: 5.6034
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2489
+  pi(C) = 0.2669
+  pi(G) = 0.2706
+  pi(T) = 0.2136
+
+Rate matrix Q:
+
+  A     -1.01    0.3014    0.5187    0.1899
+  C    0.2811    -1.103     0.218    0.6042
+  G    0.4771    0.2151      -0.8    0.1078
+  T    0.2212    0.7548    0.1366    -1.113
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.1116
+Gamma shape alpha: 1.236
+
+ Category  Relative_rate  Proportion
+  0         0              0.1116
+  1         0.2044         0.2221
+  2         0.6054         0.2221
+  3         1.16           0.2221
+  4         2.533          0.2221
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -55756.1892 (s.e. 566.5122)
+Unconstrained log-likelihood (without tree): -40296.2434
+Number of free parameters (#branches + #model parameters): 41
+Akaike information criterion (AIC) score: 111594.3784
+Corrected Akaike information criterion (AICc) score: 111594.9842
+Bayesian information criterion (BIC) score: 111867.1493
+
+Total tree length (sum of branch lengths): 8.1679
+Sum of internal branch lengths: 2.8311 (34.6616% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'EGFR_drosophila' is drawn at root
+
+                +------EGFR_chicken
+         +------| (Node4)
+         |      |     +--EGFR_human
+         |      +-----| (Node5)
+         |            +---EGFR_mouse
+   +-----| (Node3)
+   |     +----------------EGFR_zebrafish
++--| (Node2)
+|  |                +---------ERBB2_chicken
+|  |        +-------| (Node7)
+|  |        |       |      +--ERBB2_human
+|  |        |       +------| (Node8)
+|  |        |              +----ERBB2_mouse
+|  +--------| (Node6)
+|           +----------------------ERBB2_zebrafish
+| (Node1)
++-----------------------------------------------------------EGFR_drosophila
+|
+|                          +---------ERBB3_chicken
+|                   +------| (Node11)
+|                   |      |          +--ERBB3_human
+|                   |      +----------| (Node12)
+|                   |                 +--ERBB3_mouse
+|    +--------------| (Node10)
+|    |              +-----------------------------ERBB3_zebrafish
++----| (Node9)
+     |            +---ERBB4_chicken
+     |       +----| (Node14)
+     |       |    |  +--ERBB4_human
+     |       |    +--| (Node15)
+     |       |       +--ERBB4_mouse
+     +-------| (Node13)
+             +----------ERBB4_zebrafish
+
+Tree in newick format:
+
+((((EGFR_chicken:0.1973749012,(EGFR_human:0.0902182137,EGFR_mouse:0.1081781933)Node5:0.1698485805)Node4:0.1934626264,EGFR_zebrafish:0.4620039061)Node3:0.1755855056,((ERBB2_chicken:0.2694184077,(ERBB2_human:0.0646289606,ERBB2_mouse:0.1329246907)Node8:0.2007289223)Node7:0.2343820378,ERBB2_zebrafish:0.6100624622)Node6:0.2485037031)Node2:0.0972073713,EGFR_drosophila:1.5778713121,(((ERBB3_chicken:0.2750509575,(ERBB3_human:0.0819005037,ERBB3_mouse:0.0840788808)Node12:0.3032731167)Node11:0.1953274908,ERBB3_zebrafish:0.8100904921)Node10:0.4131982367,((ERBB4_chicken:0.1298228251,(ERBB4_human:0.0561084853,ERBB4_mouse:0.0735089214)Node15:0.0853174206)Node14:0.1418251787,ERBB4_zebrafish:0.3135494699)Node13:0.2282873370)Node9:0.1441801193)Node1;
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t erbb_asr_nt.treefile -m "GTR{2.23744,3.79772,1.76094,1.59655,5.60343}+F{0.248913,0.26688,0.270574,0.213632}+I{0.111649}+G4{1.23622}" --length 5727
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s alignment.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s alignment.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Sat Oct 17 05:24:22 2026
+Total CPU time used: 60.5557 seconds (0h:1m:0s)
+Total wall-clock time used: 15.3637 seconds (0h:0m:15s)
+
